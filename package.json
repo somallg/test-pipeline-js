@@ -1,0 +1,31 @@
+{
+  "name": "test-pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somallg/test-pipeline-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/somallg/test-pipeline-js/issues"
+  },
+  "homepage": "https://github.com/somallg/test-pipeline-js#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "jest-junit": "^6.3.0"
+  },
+  "jest": {
+    "verbose": true,
+    "reporters": [
+      "default",
+      "jest-junit"
+    ]
+  }
+}
