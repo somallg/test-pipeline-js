@@ -1,4 +1,4 @@
-const sum = require('./exo01');
+const sum = require('./exo01.js');
 
 describe('ex01', () => {
   it('should return 3 for 1 and 2', () => {
