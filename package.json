@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest src/exo01.spec.js"
+    "test": "jest src/exo01.spec.js",
+    "lint": "eslint . --ext .js --format checkstyle --output-file checkstyle.xml"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,9 @@
   "homepage": "https://github.com/somallg/test-pipeline-js#readme",
   "dependencies": {},
   "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
     "jest": "^24.5.0",
     "jest-junit": "^6.3.0"
   },
